@@ -20,7 +20,7 @@
         android:key="doze_elements"
         android:title="@string/doze_elements_title" >
 
-    <com.android.settings.awaken.preferences.SystemSettingSwitchPreference
+        <com.awaken.support.preferences.SystemSettingSwitchPreference
             android:key="ambient_battery_percent"
             android:title="@string/ambient_battery_percent_title"
             android:summary="@string/ambient_battery_percent_summary"
@@ -48,7 +48,7 @@
         android:key="double_tap"
         android:title="@string/double_tap_title" >
 
-    <com.android.settings.awaken.preferences.SystemSettingSwitchPreference
+        <com.awaken.support.preferences.SystemSettingSwitchPreference
             android:key="doze_trigger_doubletap"
             android:defaultValue="false"
             android:title="@string/doze_double_tap_title"
